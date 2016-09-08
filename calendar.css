@@ -1,0 +1,56 @@
+.calendar {
+    overflow: scroll;
+}
+
+.calendar table {
+    border-collapse: collapse;
+    width: 100%;
+    overflow: scroll;
+}
+
+.calendar table tr th,td {
+    border: 1px solid black;
+}
+
+.calendar table tr td  {
+    text-align:center;
+    vertical-align:top;
+}
+
+.calendar table tr td.week  {
+    text-align:left;
+    line-spacing: 1.5;
+    padding-left: 0.5em;
+}
+
+
+.cal-assignments {
+   padding: 0.5em 0.5em 0.5em 1.0em;
+   text-align: left;
+   text-indent: -0.5em ;
+}
+
+.not-ready {
+   color: #ccc;
+}
+
+.not-ready  a {
+   color: #cce;
+}
+
+.not-ready  a:visited {
+   color: #cce;
+}
+
+.ready a:hover {
+   color: #00f;
+}
+
+.not-ready a:hover {
+   color: #00f;
+}
+
+a:hover {
+   color: #00f;
+}
+

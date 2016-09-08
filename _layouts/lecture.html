@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {% assign yyyymmdd = page.lecture_date | date: "%Y%m%d" %}
+    {% assign day_mm_dd = page.lecture_date | date: "%a %m/%d" %}
+    {% assign mm_slash_dd = page.lecture_date | date: "%m/%d" %}    
+    {% include head.html %} 
+    <title>{% if page.topic %} {{ page.topic }} | {% endif %} {{ site.name }}</title>
+  </head>
+  <body id="page-top">
+    <div id="container" data-role="page">
+    <script>
+      $(document).on('pageinit','[data-role=page]', function(){
+        console.log("add_assignments.js: document is ready");
+        setUpAssignments($(this),"{{mm_slash_dd}}");
+        populateAssignmentElements($(this));
+        console.log("add_assignments.js: done");
+      });
+    </script>
+      
+    {% include nav.html %}
+    <div id="content"  class="ui-content">
+      {% if page.project_header %}
+      <h1>{{ page.topic }} Project, Week {{page.week}} Lectures</h1>
+      {% else %}
+      <h1>Lecture Notes, {{ day_mm_dd }}</h1>
+      {% endif %}
+      <h2>{{page.desc}}</h2>
+
+      {% unless page.project_header or page.week_header %}
+      <div id="agenda" data-role="collapsible" data-collapsed="true">
+	<h2>Agenda for {{day_mm_dd}} (from SPIS Google Calendar)</h2>
+<iframe src="{{ site.google_calendar_embed }}&amp;dates={{yyyymmdd}}%2F{{yyyymmdd}}" style="border:solid 1px #777" width="800" height="300" frameborder="0" scrolling="no"></iframe>
+      </div>
+      <div id="Calendar" data-role="collapsible" data-collapsed="true">
+	<h2>Assignment Calendar for Week {{page.week}}</h2>
+          <div class='calendar' data-start-weeks="{{page.week}}" data-num-weeks="1" ></div>
+      </div>
+      {% endunless %}
+      
+    {{ content }}
+    </div><!-- content -->
+    {% include footer.html %}
+    </div><!-- container -->
+  </body>
+</html>

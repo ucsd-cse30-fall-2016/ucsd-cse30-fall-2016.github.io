@@ -1,0 +1,41 @@
+{% if include.collapsible %}
+  <div data-role="collapsible" data-collapsed="{{ include.collapsed }}" markdown="0">
+{% else %}
+  <div markdown="0">
+{% endif %}
+    <h2>Week {{ include.week }}
+    {% if include.section_title %}
+      &mdash;{{include.section_title}}
+    {% endif %}
+    </h2>
+    <ul>
+      {% for item in site.lectures %}
+        {% unless item.omit_from_collection %}     
+          {% if item.week == include.week %}
+            {% include lecture_link.html
+               link_topic_desc_only=item.link_topic_desc_only
+               indent=item.indent topic=item.topic
+               desc=item.desc url=item.url lecture_date=item.lecture_date
+             %}
+      {% endif %}
+      {% endunless %}
+      {% endfor %}
+      
+<!-- separate for loop to ensure it gets placed at the end -->
+      {% if include.extra_item %}
+      {% for item in site.lectures %}
+      {% assign mmdd = item.lecture_date | date: "%m%d" %}
+      {% if mmdd == include.extra_item %}
+      {% include lecture_link.html
+               link_topic_desc_only=item.link_topic_desc_only
+               indent=item.indent
+               topic=item.topic
+               desc=item.desc
+               url=item.url
+               lecture_date=item.lecture_date
+             %}
+      {% endif %}
+      {% endfor %}
+      {% endif %}
+    </ul>
+  </div>

@@ -1,0 +1,21 @@
+<div data-role="header" class="header">
+ <nav data-role="navbar" data-grid-"d">
+  <ul>
+    <li><a href="{{ site.url }}">Home</a></li>
+    <li><a href="/info/agenda">Agenda</a></li>
+    <li><a href="/info/calendar">Calendar</a></li>
+    <li><a href="//piazza.com/class/isulbhfp4er74o#">Piazza</a></li>
+   <li><a href="//gradescope.com/courses/4118">Gradescope</a></li>
+  </ul>
+ </nav>
+
+ {% if page.layout == "hwk" %}
+ <nav data-role="navbar" data-grid-"d">
+  <ul class="hwk-nav-bar">
+  {% for asn in site.hwk %}
+    <li><a href="{{asn.url}}">{{asn.num}}</a></li>
+  {% endfor %}
+  </ul>
+ </nav>
+{% endif %}
+</div>

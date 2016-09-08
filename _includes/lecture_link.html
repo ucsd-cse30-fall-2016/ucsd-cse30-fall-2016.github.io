@@ -1,0 +1,11 @@
+<li {% if include.indent %} style="margin-left:3em;" {% endif %} >
+  {% if include.link_topic_desc_only %}
+  <a href="{{ include.url }}">{{ include.topic }}</a>
+  &mdash;{{ include.desc }}
+  {% else %}
+  <a href="{{ include.url }}">
+    {{ include.lecture_date |  date: "%a %m/%d" }}
+  </a>&mdash;
+  {{ include.topic }}&mdash;{{ include.desc }}
+  {% endif %}
+</li>
