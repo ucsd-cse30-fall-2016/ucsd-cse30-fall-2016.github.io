@@ -18,6 +18,8 @@ title: "CSE 30 Fall 2016: Computer Organization and Systems Programming"
 </ul>
 </div>
 
+
+
 <div data-role="collapsible" data-collapsed="false" markdown="0">
 <h2 id="labs">Lectures</h2>
   {% include lectures_for_week.html week="1"
@@ -27,9 +29,9 @@ title: "CSE 30 Fall 2016: Computer Organization and Systems Programming"
   {% include lectures_for_week.html week="3"
     collapsible="true" collapsed="true" %}
   {% include lectures_for_week.html week="4"
-    collapsible="true" collapsed="false" %}
-  {% include lectures_for_week.html week="5" section_title="Projects"
-    collapsible="true" collapsed="true" extra_item="0902" %}
+    collapsible="true" collapsed="true" %}
+  {% include lectures_for_week.html week="5" 
+    collapsible="true" collapsed="true" %}
 </div>
 
 <div data-role="collapsible" data-collapsed="false" >

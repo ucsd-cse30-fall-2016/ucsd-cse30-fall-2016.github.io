@@ -7,6 +7,8 @@ url: https://ucsd-cse30-fall-2016.github.io/
 piazza: https://piazza.com/class/isulbhfp4er74o#
 gradescope: https://gradescope.com/courses/4118
 
+weekly_google_calendar_prefix: "https://sites.google.com/a/eng.ucsd.edu/spis/home/AcademicProgram/2016-foundations#week"
+
 google_calendar_embed: "https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffff99&amp;src=eng.ucsd.edu_rg7770j4sj2i20n8t6i6b51aks%40group.calendar.google.com&amp;color=%23705770&amp;ctz=America%2FLos_Angeles"
 
 google_calendar_embed_height_600px: "https://calendar.google.com/calendar/embed?mode=WEEK&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=eng.ucsd.edu_rg7770j4sj2i20n8t6i6b51aks%40group.calendar.google.com&amp;color=%2328754E&amp;ctz=America%2FLos_Angeles"
@@ -14,8 +16,8 @@ course_github_url: https://github.com/ucsd-cse30-fall-2016
 
 guttag_url: "https://mitpress.mit.edu/books/introduction-computation-and-programming-using-python-0"
 
-num_weeks: 10
-start_date: 2016-09-23 00:00:00.00-7:00
+num_weeks: 11
+start_date: 2016-09-18 00:00:00.00-7:00
 
 hwk_course: "CSE 30"
 course: "CSE 30: Computer Organization and Systems Programming"

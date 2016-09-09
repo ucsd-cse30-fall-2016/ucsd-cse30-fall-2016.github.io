@@ -11,12 +11,7 @@ function setUpCalendar(page) {
 
 function weekLabel(weekNum) {
  // returns HTML content of <td> element at start of week
-    return 'Week ' + weekNum +  
-	'<ul>' +
-	'<li><a href="{{site.weekly_google_calendar_prefix}}' +
-	weekNum + '">agenda</a></li>' +
-	'<li><a href="/lectures/week' + weekNum + '">lectures</a></li>' +
-	'</ul>';
+    return 'Week ' + weekNum 
 }
 
 function linkToLecture(mm,dd,week) {
