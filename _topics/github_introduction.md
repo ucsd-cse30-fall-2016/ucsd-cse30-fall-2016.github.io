@@ -8,6 +8,7 @@ desc: "What is git? What is github?"
 Git is a piece of open source software that allows you to better manage the code for a project.
 
 It helps you:
+
 * keep a historical record of all the changes you make to your code over time (that is, *version control*)
 * have access to your code on any computer connected to the Internet
 * collaborate with others by controlling read and write access to your code 
@@ -18,6 +19,7 @@ possibly other folders containing files and folders along with the entire
 history of all changes to those files and folders over time.
 
 There are many places a git repo can be stored:
+
 * on your own personal Windows, Mac, or Linux computer
 * under a directory on your CSIL account
 * on a cloud-based storage provider.  
@@ -80,3 +82,6 @@ On the other hand, keeping files in a git repository has many advantages over ju
 -  it is easier to recover from screwups (like deleting important files, messing up code that was previously working, complete failure of your hard drive)
 -  it is easier to share "works in progress" with TAs and instructors and fellow students to get help during lab, office hours, or by email
 -  it is easier to share "open source" projects with others on the internet.
+
+                                                    
+Author: Phillip Conrad
