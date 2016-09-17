@@ -15,9 +15,19 @@ Students are encouraged to talk to each other, to the course staff, or to anyone
 
 ## Policies related to programming assignments
 
-* All assignments must be done individually.
+* Programming Assignments may be done individually or in pairs
+
+* You may select a pair programming partner only from a designated group of students in your section. 
+
+* You may form a partnership no later than a day after the assignment is released 
+
+* You may break a partnership no later than three days before an assignment is due
+
+* If you break a partnership you will have to work individually on that assignment
 
 * No extensions will be given on assignments except in very rare cases involving severe medical illness or other unavoidable emergencies.
+
+* Each pair must submit a single copy of the assignment via gradescope
 
 * Code that does not compile will receive ZERO points. Make sure your code compiles before turning it in. 
 
