@@ -39,6 +39,14 @@ collections:
     output: true
     permalink: /lab/:path/
     last_before: false
+  exam:
+    output: true
+    permalink: /exam/:path/
+    last_before: false
+  quiz:
+    output: true
+    permalink: /quiz/:path/
+    last_before: false
   info:
     output: true
     permalink: /info/:path/
@@ -73,6 +81,19 @@ defaults:
       type: lab
     values:
       layout: lab
+
+  - 
+    scope:
+      path: ""
+      type: exam
+    values:
+      layout: exam 
+  - 
+    scope:
+      path: ""
+      type: quiz 
+    values:
+      layout: quiz 
   - 
     scope:
       path: ""

@@ -1,7 +1,9 @@
 ---
-title: Required and Recommended Resources
+title: Course Resources
 layout: default
 ---
+
+# Required and Recommended Resources
 
 ## Required textbooks
 

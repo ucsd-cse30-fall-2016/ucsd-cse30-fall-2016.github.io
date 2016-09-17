@@ -26,7 +26,31 @@ var dates = {
 	},
 	{% endfor %}
     ],
+    "exam": [
+	{% for asn in site.exam %}
+	{
+	    "num" : "{{ asn.num }}",
+	    "ready" :  "{{ asn.ready }}",
+	    "desc" :  "{{ asn.desc }}",
+	    "assigned" :  "{{ asn.assigned }}",
+	    "due" :  "{{ asn.due }}",
+	    "url" :  "{{ asn.url }}",
+	},
+	{% endfor %}
+    ],
 
+    "quiz": [
+	{% for asn in site.quiz %}
+	{
+	    "num" : "{{ asn.num }}",
+	    "ready" :  "{{ asn.ready }}",
+	    "desc" :  "{{ asn.desc }}",
+	    "assigned" :  "{{ asn.assigned }}",
+	    "due" :  "{{ asn.due }}",
+	    "url" :  "{{ asn.url }}",
+	},
+	{% endfor %}
+    ],
     "lectures": [
 	{% for lecture in site.lectures %}
 	{
@@ -65,6 +89,12 @@ function traverseDates(dates) {
     }
     for (var i = 0, len = dates.lab.length; i < len; i++) {
 	processHwkOrLab(dates.lab[i],"lab");
+    }
+    for (var i = 0, len = dates.quiz.length; i < len; i++) {
+	processHwkOrLab(dates.quiz[i],"lab");
+    }
+    for (var i = 0, len = dates.exam.length; i < len; i++) {
+	processHwkOrLab(dates.exam[i],"lab");
     }
 }
 
@@ -208,6 +238,36 @@ function populateAssignmentElements(elem) {
     });
 
     
+    elem.find('.cal-assignments div[data-asn-type="exam"]').each(function() {
+	var asn = $(this).data("date-value");
+	if (asn.ready=="true") {
+	    $(this).addClass("ready");
+	} else {
+	    $(this).addClass("not-ready");
+	}
+	var link = $('<a />')
+	    .attr('href',asn.url)
+	// .attr('data-ajax','false')
+	    .text(asn.num)
+	    .appendTo($(this));
+	$(this).addClass("exam");
+    });
+
+    elem.find('.cal-assignments div[data-asn-type="quiz"]').each(function() {
+	var asn = $(this).data("date-value");
+	if (asn.ready=="true") {
+	    $(this).addClass("ready");
+	} else {
+	    $(this).addClass("not-ready");
+	}
+	var link = $('<a />')
+	    .attr('href',asn.url)
+	// .attr('data-ajax','false')
+	    .text(asn.num)
+	    .appendTo($(this));
+	$(this).addClass("quiz");
+    });
+
     elem.find('.cal-assignments div[data-date-type="due"]').each(function() {
 			var asn = ($(this).data("date-value"));
 			$(this).append(" due " + moment(asn.due).format("hh:mma") );
