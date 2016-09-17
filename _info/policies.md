@@ -13,17 +13,13 @@ Each student is responsible for knowing and abiding by UCSD's policies on Integr
 
 Students are encouraged to talk to each other, to the course staff, or to anyone else about any of the assignments. Assistance must be limited to discussion of the problem and sketching general approaches to a solution. Each student must write out his or her own solutions to written component of homeworks, programming assignments may be completed with a partner. Read the next section for more details on programming assignments .
 
-## Policies related to homeworks and programming assignments
+## Policies related to programming assignments
 
-* All written homeworks must be done individually.
-
-* Regrade requests for written homeworks should be submitted via gradescope.
-
-* Programming assignments may be done in pairs and must be completed following a true pair programming style. You may choose a partner from any of the two sections of the class, but you cannot change partners during the course. If the partnership does not work out, you will need to complete the subsequent assignments individually.
+* All assignments must be done individually.
 
 * No extensions will be given on assignments except in very rare cases involving severe medical illness or other unavoidable emergencies.
 
-* Code that does not compile will receive ZERO points. Make sure your code compiles before turning it in.
+* Code that does not compile will receive ZERO points. Make sure your code compiles before turning it in. 
 
 * Regrades for programming assignments should be requested by filling the regrade request form (Check Piazza for the link to the form and detailed instructions). 
 
@@ -42,11 +38,11 @@ Assignments will NOT be accepted after the due date: no exceptions! Makeup exams
 Your final grade for the course will be based on the following components:
 
 * 2% Class Participation
-* 15%  Homeworks
+* 10% Reading Quizzes
 * 28% Programming Assignments
 * 15% Midterm 1
 * 15% Midterm 2
-* 25% Final exam
+* 30% Final exam
 
 You may miss up to two classes without penalty (lowest two participation scores) will be dropped.
 
