@@ -58,7 +58,7 @@ collections:
     permalink: /lectures/:path/
   staff:
     output: true
-    permalink: /mentor/:path/
+    permalink: /staff/:path/
   instructor:
     output: true
     permalink: /instructor/:path/
