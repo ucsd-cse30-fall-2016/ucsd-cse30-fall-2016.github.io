@@ -34,3 +34,7 @@ If you are interested in working on the actual hardware, I recommend purchasing 
 
 If you do not wish to purchase the hardware, you may take a software only route. We will use docker and an ARM emulator to virtulaize the raspberry pi in software.
 
+# Labs
+The lab space for the course is B230.
+There are 10 stations with a keyboard, monitor and mouse that you can connect your Raspberry Pi to for one -time graphical setup. Although you can use these stations throughout the quarter, we recommend that you set up your Pi for remote connection via ssh instead of using it in a desktop configuration
+

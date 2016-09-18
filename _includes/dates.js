@@ -91,10 +91,10 @@ function traverseDates(dates) {
 	processHwkOrLab(dates.lab[i],"lab");
     }
     for (var i = 0, len = dates.quiz.length; i < len; i++) {
-	processHwkOrLab(dates.quiz[i],"lab");
+	processHwkOrLab(dates.quiz[i],"quiz");
     }
     for (var i = 0, len = dates.exam.length; i < len; i++) {
-	processHwkOrLab(dates.exam[i],"lab");
+	processHwkOrLab(dates.exam[i],"exam");
     }
 }
 
@@ -108,7 +108,7 @@ function isHwkOrLabAssignment(hwkOrLab) {
 }
 
 function processHwkOrLab(item,which) {
-    if (which!="hwk" && which!="lab") {
+    if (which!="hwk" && which!="lab" && which!="quiz" && which!="exam") {
 	reportError("processHwkorLab: second param must be hwk or lab: " + which);
 	return;
     }

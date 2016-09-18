@@ -42,7 +42,7 @@ function addCalendarTable(elem,cal) {
 
     
     var startDay = moment(cal.startDate);
-    var startWeek = startWeekDataAttribute || 1;
+    var startWeek = startWeekDataAttribute || 0;
     var numWeeks = numWeeksDataAttribute || cal.numWeeks;
 
     console.log("startDay.format('YYYY/MM/DD')=" + startDay.format('YYYY/MM/DD'));
@@ -55,7 +55,7 @@ function addCalendarTable(elem,cal) {
     elem.append('<table >');
     elem.find('table').append( '<tr><th>&nbsp;</th><th>S</th><th>M</th><th>T</th><th>W</th><th>R</th><th>F</th><th>S</th></tr>');
 
-    for(var week=1;week<=cal.numWeeks; week++){
+    for(var week=0;week<cal.numWeeks; week++){
 	var inRange = ( week >= startWeek && week < (startWeek + numWeeks) );
 	if ( inRange) {
 	    elem.find('table').append( '<tr data-week-num="' + week +'" />')
