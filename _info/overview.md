@@ -30,9 +30,10 @@ You will be expected to have completed the assigned reading and ready to discuss
 ## Raspberry Pi hardware (recommended)
 The programming assignments for the course involve writing ARM assembly code. 
 If you are interested in working on the actual hardware, I recommend purchasing a Raspberry Pi. The Pi is a nifty little ARM-based computer, fun to program and great for doing embedded projects. Any of the following raspberry Pi models would work for our purpose: RPi 1 model B+, RPi 2 model B or RPi 3. Unless you already own a raspberry Pi, the [Raspberry Pi 3 kit](https://www.amazon.com/dp/B01C6Q2GSY?psc=1)  will probably give you the best return on investment.
+Also purchase an ethernet cable so you have a way of getting into the Pi if you have trouble with the school WiFi. Here is the cheapest [option](https://www.amazon.com/AmazonBasics%C2%A0RJ45%C2%A0Cat-6-Ethernet%C2%A0Patch-Cable--%C2%A05%C2%A0Feet-1-5%C2%A0Meters/dp/B00N2VISLW/ref=sr_1_3?s=pc&ie=UTF8&qid=1474715824&sr=1-3&keywords=ethernet%2Bcable&th=1)
+If your laptop doesn't have an ethernet port, you will need an [adaptor](https://www.amazon.com/Cable-Matters-Ethernet-Adapter-White/dp/B00ET4KIFK/ref=sr_1_4?s=pc&ie=UTF8&qid=1474715989&sr=1-4&keywords=ethernet+cable+adapter)
 
-
-If you do not wish to purchase the hardware, you may take a software only route. We will use docker and an ARM emulator to virtulaize the raspberry pi in software.
+If you do not wish to purchase the hardware, you may take a software only route. We will use docker and an ARM emulator (qemu-user-static package) to virtulaize the raspberry pi in software.
 
 # Labs
 The lab space for the course is B230.
