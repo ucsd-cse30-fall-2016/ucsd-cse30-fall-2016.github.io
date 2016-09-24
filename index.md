@@ -72,6 +72,7 @@ title: "CSE 30 Fall 2016: Computer Organization and Systems Programming"
  </ul>
 </div>
 
+Copyright (c) 2016, Diba Mirza and Phill Conrad 
 
 
 

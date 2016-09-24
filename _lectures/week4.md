@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "FOCS Lectures"
+title: "Lectures"
 desc: "Week 4"
 week: "4"
 omit_from_collection: true
@@ -13,4 +13,4 @@ omit_from_collection: true
 
 ----
 
-![SPIS_logo](/images/SPIS_logo.jpg)
+![Pi_logo](/images/Pi.jpg)
