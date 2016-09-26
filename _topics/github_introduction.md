@@ -46,7 +46,7 @@ Github provides academic discounts through these organizations.
 Anyone can set up an organization on the "free plan", and 
 then instructors at educational institutions can request the academic discount for their "organization".
 
-The organization for SPIS 2016 is https://github.com/ucsd-cse-spis-2016
+The organization for CSE 30 Fall 2016 is https://github.com/ucsd-cse30-fall-2016
 
 # What does "in the cloud" mean?
 

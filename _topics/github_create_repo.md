@@ -3,7 +3,7 @@ topic: "Github: Creating a repo"
 desc: "Creating repos in various ways"
 ---
 
-There are several different scenarios for creating a github repo that you may need to use during SPIS.
+There are several different scenarios for creating a github repo that you may need to use during CSE 30.
 
 This page contains an outline of several of these.
 
@@ -19,28 +19,28 @@ Other github topics:
 # <a name="method1"></a>Method 1: Create empty private repo, optionally adding starter code from a link
 
 We ask that you create a new private github repo *inside the
-ucsd-cse-spis-2016 organization* for each lab assignment.  You and
+ucsd-cse30-fall-2016 organization* for each lab assignment.  You and
 your partner will share the same repo by following these instructions
 
 1. Navigate to 
-   the [ucsd-cse-spis-2016 organization](https://github.com/ucsd-cse-spis-2016)
+   the [ucsd-cse30-fall-2016 organization](https://github.com/ucsd-cse30-fall-2016)
 
 1. Click on the "New repository" button to create a new repo as shown below: 
 
    ![new repo](/images/new-repo-begin.png)
    
-   Be sure that the "owner" of the repository is *ucsd-cse-spis-2016*
+   Be sure that the "owner" of the repository is *ucsd-cse30-fall-2016*
    as shown in the image, and NOT your own github account.  If the
    owner shows as your own github id, you may have to change the pull
    down menu on the left where it says owner.
    
    When creating your repo use the naming convention
-   `spis16-labXX-<pair name>`. Enter your pair name exactly as listed
+   `cse30-fa16-labXX-<pair name>`. Enter your pair name exactly as listed
    under the `Pair_Name` column [at this
-   link](http://ucsd-cse-spis-2016.github.io/info/pairs/). For
+   link](http://ucsd-cse30-fall-2016.github.io/info/pairs/). For
    example, if you are creating a repo for lab04, and the name of your
    pair is Phill-Diba, then your repo should be named
-   "spis16-lab04-Phill-Diba". Select the "private" option when
+   "cse30-fa16-lab04-Phill-Diba". Select the "private" option when
    creating your repo to make sure your repo is only visible to the
    collaborators of the repo (you and your partner) and the course
    instructors. Click on the "Create repository" button. See the
@@ -69,8 +69,7 @@ your partner will share the same repo by following these instructions
 
 
 5. Its now time to clone a copy of your repo on the computer where you
-    intend to work. We strongly recommend that you create this clone on one
-    of the ieng6 servers (e.g. ieng6-240.ucsd.edu). The process of
+    intend to work. We strongly recommend that you create this clone inside the emulated or physical raspberry Pi. The process of
     creating a copy of your repo is called cloning because you not only
     get a replica of your code on a difference machine but can reflect
     changes made in one clone repo to any other clone using the mechanisms
@@ -78,8 +77,7 @@ your partner will share the same repo by following these instructions
     to work on the same version of your code from any computer. 
 
     For now,
-    we are interested in working on the `ieng6` servers, so that's where you
-    will create the clone. To clone your repo navigate to your repo on
+    we will demonstrate how this may be done on the `ieng6` servers. To clone your repo navigate to your repo on
     github and click on the green "clone or download" button on the top
     right corner. 
 
@@ -93,7 +91,7 @@ your partner will share the same repo by following these instructions
     using the `git clone` command as in the following example:
 
     ```
-    $ git clone git@github.com:ucsd-cse-spis-2016/spis16-lab04-Phill-Diba.git
+    $ git clone git@github.com:ucsd-cse30-fall-2016/cse30-fa16-lab04-Phill-Diba.git
 
     ```
     
@@ -101,8 +99,8 @@ your partner will share the same repo by following these instructions
     provided above. To check if your repo has been cloned correctly, type
     `ls` on the command prompt and you should see a directory with your
     repo name. Navigate into that directory using the `cd` command. For
-    example if the directory name is `spis16-lab04-Phill-Diba`, at the
-    command prompt type `cd spis16-lab04-Phill-Diba`
+    example if the directory name is `cse30-fa16-lab04-Phill-Diba`, at the
+    command prompt type `cd cse30-fa16-lab04-Phill-Diba`
 
 
 ## Submitting your code via github
@@ -149,4 +147,4 @@ Then you see this screen, where you fill in the values as shown.
 
 
 
-<div style="display:none">http://ucsd-cse-spis-2016.github.io/topics/github_create_repo/</div>
+<div style="display:none">http://ucsd-cse30-fall-2016.github.io/topics/github_create_repo/</div>
