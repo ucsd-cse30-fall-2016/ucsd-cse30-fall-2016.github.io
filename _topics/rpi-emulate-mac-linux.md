@@ -14,14 +14,13 @@ For MAC OSX, run
 
 ```
 $ brew install qemu
-$ brew install qemu-use-static
 ```
 
 On linux, Debian or ubuntu, run
 
 ```
 $ apt-get install qemu 
-$ apt-get install qemu-use-static
+$ apt-get install qemu-user-static
 ```
 3. Download the zipped [Raspian Jessie Lite image](https://www.raspberrypi.org/downloads/raspbian/) and place it in some local directory (say ~/images). Unzip the image.
 
