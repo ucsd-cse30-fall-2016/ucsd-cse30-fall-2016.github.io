@@ -9,7 +9,7 @@ Follow these steps on MAC OSX or Linux machine:
 
 1. Install Docker Engine following the instructions appropriate for your OS from the [docker website](https://docs.docker.com/engine/installation/)
 
-2. Install the packages: qemu and qemu-user-static
+2. Install the packages: qemu (and qemu-user-static on linux)
 For MAC OSX, run
 
 ```
