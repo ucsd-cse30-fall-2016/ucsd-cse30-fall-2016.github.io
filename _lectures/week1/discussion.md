@@ -15,4 +15,4 @@ Here are a few things you can do to prepare for discussion -
 1. Install [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) on your laptop before coming to the session.
 2. Browse through [git cheatsheet](http://www.cheat-sheets.org/saved-copy/git-cheat-sheet.pdf)
 
-## Discussion Slides [pdf](https://drive.google.com/a/eng.ucsd.edu/file/d/0B__7284Jee0faW9qdE9rYnZSOE5tS01yMGpMWXUtMUR4MUZ3/view?usp=sharing) 
+## Discussion Slides [pdf](https://drive.google.com/file/d/0B__7284Jee0faW9qdE9rYnZSOE5tS01yMGpMWXUtMUR4MUZ3/view?usp=sharing) 
