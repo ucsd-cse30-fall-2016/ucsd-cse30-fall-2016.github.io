@@ -16,7 +16,7 @@ $ ssh -Y cs30fxx@ieng6-240.ucsd.edu
 
 ``` 
 [cs30fxx@ieng6-240]:~:1$ mkdir images
-[cs30fxx@ieng6-240]:~:2$ cp ../public/images/* ./
+[cs30fxx@ieng6-240]:~:2$ cp ../public/images/* ./images/
 
 ```
 
