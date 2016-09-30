@@ -71,7 +71,11 @@ ssh pi@localhost -p 30223
 
 Replace 30223 with the port number that the `find_port` script gave you earlier
 
-Note: Your image file will only be present locally on the machine that you logged in and not over the network because it is in the /scratch/ folder. So, if you logged in at a later time into that very same physical machine, the image should be available to you.
+Note: Your image file will only be present locally on the machine that you logged in and not over the network because it is in the /scratch/ folder. So, if you logged in at a later time into that very same physical machine, the image should be available to you. 
+
+* Step 8: To make sure that the image file is available in your home directory, copy both the raspian image and the kernel image to your home directory. Modify your run_qemu script to point to these files
+
+
 
 Note: We have put in a request to increase your disk quota space so that images can be stored in your home directory. We will update you over Piazza when thsi becomes available.
 
