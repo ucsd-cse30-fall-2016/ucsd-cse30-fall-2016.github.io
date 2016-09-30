@@ -64,7 +64,7 @@ ssh pi@localhost -p 30223
 
 ```
 
-Replace 30223 with whatever the `find_port` script gave you earlier
+Replace 30223 with the port number that the `find_port` script gave you earlier
 
 Note: Your image file will only be present locally on the machine that you logged in and not over the network because it is in the /scratch/ folder. So, if you logged in at a later time into that very same physical machine, the image should be available to you.
 
