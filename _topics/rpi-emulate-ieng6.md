@@ -5,7 +5,12 @@ desc: "Tutorial for ieng6 servers"
 
 ## Run a raspberry pi emulation environment on ieng6 servers
 
-* Step 1: Log into your cs30fxx account on the ieng6 servers or lab machines. Although you may do the following steps over ssh, note that the image file that you create in the /scratch/ directory may not be available to you in the next login session because /scratch/ is a local file system. If you do the process below on a physical machine in B230, your changes will persist on that machine. If you are not able to be physical present in the labs just yet, try to the following steps over ssh just as a practice with running your emulation environment on ieng6.
+* Step 1: Log into your cs30fxx account on the ieng6 servers or lab machines. Although you may do the following steps over ssh, note that the image file that you create in the /scratch/ directory may not be available to you in the next login session because /scratch/ is a local file system. If you do the process below on a physical machine in B230, your changes will persist on that machine. If you are not able to be physical present in the labs just yet, try to the following steps over ssh just as a practice with running your emulation environment on ieng6. Login over ssh as follows:
+
+```
+$ ssh -Y cs30fxx@ieng6-240.ucsd.edu
+
+```
 
 * Step 2: Create an account specific directory in the scratch folder and copy the provided image files by running the following commands:
 
@@ -55,7 +60,7 @@ Note: Unlike docker, it will take a few minutes for Raspian to boot up. After it
 
 	* Use your cursor to navigate to Option 2: "Change User Password". Press enter
 
-	* Enter your new password at the prompt "Enter new UNIX password:". After you enter your password, you will 
+	* Enter your new password at the prompt "Enter new UNIX password:". After you enter your password, you will get back the raspi-config screen. Press "tab" to select Finish, then press enter to exit the configuration screen.
 
 * Step 7: If you want another Raspian shell, you don't have to run qemu again. Instead open another terminal and connect to your emulated session over ssh as follows
 
