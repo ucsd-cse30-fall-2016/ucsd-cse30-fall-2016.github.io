@@ -77,5 +77,3 @@ Note: Your image file will only be present locally on the machine that you logge
 
 
 
-Note: We have put in a request to increase your disk quota space so that images can be stored in your home directory. We will update you over Piazza when thsi becomes available.
-
