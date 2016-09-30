@@ -5,7 +5,7 @@ desc: "Tutorial for ieng6 servers"
 
 ## Run a raspberry pi emulation environment on ieng6 servers
 
-* Step 1: Log into your cs30fxx account on one of the lab machines (You have to be physically present at a lab machine to do this. ) At the end of this process you will need to save your image file on a USB thumbdrive. So, please carry one with you with more than 2GB of space. You can do the following steps over ssh, just to try things out but note that the image file that you create in the /scratch/ directory may not be available to you in the next login session. It may still be worth a try to make sure your emulation environment is working
+* Step 1: Log into your cs30fxx account on the ieng6 servers or lab machines. Although you may do the following steps over ssh, note that the image file that you create in the /scratch/ directory may not be available to you in the next login session because /scratch/ is a local file system. If you do the process below on a physical machine in B230, your changes will persist on that machine. If you are not able to be physical present in the labs just yet, try to the following steps over ssh just as a practice with running your emulation environment on ieng6.
 
 * Step 2: Create an account specific directory in the scratch folder and copy the provided image files by running the following commands:
 
