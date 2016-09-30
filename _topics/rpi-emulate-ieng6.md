@@ -5,7 +5,7 @@ desc: "Tutorial for ieng6 servers"
 
 ## Run a raspberry pi emulation environment on ieng6 servers
 
-* Step 1: Log into your cs30fxx account on the ieng6 servers or lab machines. Login over ssh as follows:
+* Step 1: Log into your cs30fxx account on the ieng6 servers or lab machines. To login remotely over ssh run:
 
 ```
 $ ssh -Y cs30fxx@ieng6-240.ucsd.edu
@@ -19,7 +19,7 @@ $ ssh -Y cs30fxx@ieng6-240.ucsd.edu
 [cs30fxx@ieng6-240]:~:2$ cp ../public/images/* ./images/
 
 ```
-
+Note: The images are failry large. So, it will take a while for the copy to complete. Be patient. If you get a disk quota error, let us know and we will increase your disk space.
 
 * Step 3: Copy a script to run the emulator from the public directory and to find available ports
 
