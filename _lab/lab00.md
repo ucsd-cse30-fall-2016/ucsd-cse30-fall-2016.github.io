@@ -40,10 +40,11 @@ Register your iclicker on the [iclicker website](https://www1.iclicker.com/regis
 Even if you plan to use the actual hardware, you must have a working setup to emulate the Raspberry Pi. This will serve as backup in case something goes wrong with your hardware or an unfortunate breakup takes place between you and your partner!
 
 You can either setup your own laptop OR run everything on the cloud.
-Choose one the tutorials below to set up an emulation environment on your laptop:
+Choose one the tutorials below to set up an emulation environment on your laptop. Note: If you have tried either of the first two options with little success, try the third one which allows you to run the emulator on the ieng6 machines.
 
 * [Tutorial on emulating RPi on MAC OSX or Linux](/topics/rpi-emulate-mac-linux/)
 * [Tutorial on emulating RPi on Windows](/topics/rpi-emulate-windows/)
+* [Tutorial on emulating RPi on ieng6 servers](/topics/rpi-emulate-ieng6/)
 
 ## Complete the response form for this lab to get credit
 
