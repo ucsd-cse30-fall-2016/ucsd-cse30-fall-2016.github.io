@@ -230,8 +230,11 @@ pi@spispi-dm28:~ $ scp cs30fzz@ieng6-240.ucsd.edu:/home/linux/ieng6/cs30f/public
 
 ```
 Follow the prompts to transfer the sample file
+
 <p align="center">
+
 ![rpi-wpa](/images/RPi/Rpi-wpa.png){:height="300px"}
+
 </p>
 
 Open the file in vi or nano and enter your wifi credentials, refer to the "Customize your image" section above
