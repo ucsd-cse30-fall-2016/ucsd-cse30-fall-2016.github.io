@@ -85,6 +85,7 @@ Set the identity and password fields using your Active Directory OR cs30f accoun
 
 * Open the raspi-config configuration tool:
 
+
 ```
 $ sudo raspi-config
 
@@ -92,7 +93,7 @@ $ sudo raspi-config
 
 You will see the following screen:
 
-![raspi-config](/topics/RPi/raspi-config.png){:height="300px"}
+![raspi-config](RPi/raspi-config.png){:height="300px"}
 
 * Use the down arrow key to navigate to the "Advanced Options". Select by pressing enter. You should see the following screen	
 
