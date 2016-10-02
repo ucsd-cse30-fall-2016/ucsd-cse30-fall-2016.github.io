@@ -97,11 +97,11 @@ You will see the following screen:
 * Use the down arrow key to navigate to the "Advanced Options". Select by pressing enter. You should see the following screen	
 
 
-![raspi-config](/topics/RPi/raspi-hostname.png){:height="300px"}
+![raspi-hostname](/topics/RPi/raspi-hostname.png){:height="300px"}
 
 * Press enter twice to arrive at the following screen:
 
-![raspi-config](/topics/RPi/raspi-change-hostname.png){:height="300px"}
+![raspi-change-hostname](/topics/RPi/raspi-change-hostname.png){:height="300px"}
 
 * Change the hostname to something unique with the prefix `spispi`. In the default hostname, replace the letters xy71 by the last two letters of your cs30f account and a two digit number. Take note of the hostname.
 
