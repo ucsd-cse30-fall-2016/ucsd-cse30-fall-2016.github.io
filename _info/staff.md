@@ -17,8 +17,6 @@ Homepage: https://sites.google.com/a/eng.ucsd.edu/dibamirza/
  
 
 
-
-
 ## Teaching Assistants
 
 * Jor-el Brionnes: jbriones@ucsd.edu
