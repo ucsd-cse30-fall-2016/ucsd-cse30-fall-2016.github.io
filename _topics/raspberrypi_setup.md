@@ -181,7 +181,7 @@ If you have bought the Raspberry Pi 3 kit, your SD card already has the NOOBS in
 
 <p align="center">
 
-![rpi-desktop](/images/RPi/RPi-desktop.png){:height="300px"}
+![rpi-desktop](/images/RPi/Rpi-desktop.png){:height="300px"}
 
 </p>
 
@@ -192,7 +192,7 @@ If you have bought the Raspberry Pi 3 kit, your SD card already has the NOOBS in
 
 <p align="center">
 
-![rpi-desktop1](/images/RPi/RPi-config.png){:height="300px"}
+![rpi-desktop1](/images/RPi/Rpi-config.png){:height="300px"}
 
 </p>
 
@@ -201,11 +201,11 @@ If you have bought the Raspberry Pi 3 kit, your SD card already has the NOOBS in
 
 <p align="center">
 
-![rpi-desktop2](/images/RPi/RPi-locale.png){:height="300px"}
+![rpi-desktop2](/images/RPi/Rpi-locale.png){:height="300px"}
 
-![rpi-desktop3](/images/RPi/RPi-timezone.png){:height="300px"}
+![rpi-desktop3](/images/RPi/Rpi-timezone.png){:height="300px"}
 
-![rpi-desktop4](/images/RPi/RPi-wificountry.png){:height="300px"}
+![rpi-desktop4](/images/RPi/Rpi-wificountry.png){:height="300px"}
 
 </p>
 
@@ -231,7 +231,7 @@ pi@spispi-dm28:~ $ scp cs30fzz@ieng6-240.ucsd.edu:/home/linux/ieng6/cs30f/public
 ```
 Follow the prompts to transfer the sample file
 <p align="center">
-![rpi-wpa](/images/RPi/RPi-wpa.png){:height="300px"}
+![rpi-wpa](/images/RPi/Rpi-wpa.png){:height="300px"}
 </p>
 
 Open the file in vi or nano and enter your wifi credentials, refer to the "Customize your image" section above
