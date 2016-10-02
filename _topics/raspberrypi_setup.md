@@ -233,7 +233,7 @@ Follow the prompts to transfer the sample file
 
 <p align="center">
 
-![rpi-wpa](/images/RPi/Rpi-wpa.png){:height="300px"}
+![rpi-wpa](/images/RPi/RPi-wpa.png){:height="300px"}
 
 </p>
 
