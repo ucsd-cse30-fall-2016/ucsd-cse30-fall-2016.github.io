@@ -166,7 +166,7 @@ If you have bought the Raspberry Pi 3 kit, your SD card already has the NOOBS in
 * Step 4:Connect the power supply to your Pi to turn it on. You should see the NOOBS installer screen:
 
 <p align="center">
-![noobs](/topics/RPi/NOOBS.png)
+![noobs](/images/RPi/NOOBS.png)
 </p>
 
 * Step 5: Select "Raspian" as the OS, Language "English US" and Keyboard as "us". Then click on "Install". 
@@ -174,13 +174,13 @@ If you have bought the Raspberry Pi 3 kit, your SD card already has the NOOBS in
 * It will take 10 to 15 minutes for Raspian to install
 
 <p align="center">
-![raspian-install](/topics/RPi/Raspian-Install.JPG){:height="300px"}
+![raspian-install](/images/RPi/Raspian-Install.JPG){:height="300px"}
 </p>
 
 * Once Raspian boots up you should see a graphical desktop interface. Most likely you won't be connected to WiFi, and won't be able to view the WiFi icon on the top right. Your desktop view should be similar to the one shown below:
 
 <p align="center">
-![rpi-desktop](/topics/RPi/RPi-desktop.png){:height="300px"}
+![rpi-desktop](/images/RPi/RPi-desktop.png){:height="300px"}
 </p>
 
  
@@ -189,16 +189,16 @@ If you have bought the Raspberry Pi 3 kit, your SD card already has the NOOBS in
 * Step 7: Configure Raspian using the graphical configuration tool. Go to Menu->Preferences-> Raspberry Pi Configuration. See image below:
 
 <p align="center">
-![rpi-desktop](/topics/RPi/RPi-config.png){:height="300px"}
+![rpi-desktop](/images/RPi/RPi-config.png){:height="300px"}
 </p>
 
 
 * Step 7a: Click on the "localisation" tab: set your locale, timezone, and Wifi country as follows:
 
 <p align="center">
-![rpi-desktop](/topics/RPi/RPi-locale.png){:height="300px"}
-![rpi-desktop](/topics/RPi/RPi-timezone.png){:height="300px"}
-![rpi-desktop](/topics/RPi/RPi-wificountry.png){:height="300px"}
+![rpi-desktop](/images/RPi/RPi-locale.png){:height="300px"}
+![rpi-desktop](/images/RPi/RPi-timezone.png){:height="300px"}
+![rpi-desktop](/images/RPi/RPi-wificountry.png){:height="300px"}
 </p>
 
 
@@ -223,7 +223,7 @@ pi@spispi-dm28:~ $ scp cs30fzz@ieng6-240.ucsd.edu:/home/linux/ieng6/cs30f/public
 ```
 Follow the prompts to transfer the sample file
 <p align="center">
-![rpi-wpa](/topics/RPi/RPi-wpa.png){:height="300px"}
+![rpi-wpa](/images/RPi/RPi-wpa.png){:height="300px"}
 </p>
 
 Open the file in vi or nano and enter your wifi credentials, refer to the "Customize your image" section above
