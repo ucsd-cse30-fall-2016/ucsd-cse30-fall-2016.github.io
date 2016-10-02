@@ -180,7 +180,9 @@ If you have bought the Raspberry Pi 3 kit, your SD card already has the NOOBS in
 * Once Raspian boots up you should see a graphical desktop interface. Most likely you won't be connected to WiFi, and won't be able to view the WiFi icon on the top right. Your desktop view should be similar to the one shown below:
 
 <p align="center">
+
 ![rpi-desktop](/images/RPi/RPi-desktop.png){:height="300px"}
+
 </p>
 
  
@@ -189,16 +191,22 @@ If you have bought the Raspberry Pi 3 kit, your SD card already has the NOOBS in
 * Step 7: Configure Raspian using the graphical configuration tool. Go to Menu->Preferences-> Raspberry Pi Configuration. See image below:
 
 <p align="center">
-![rpi-desktop](/images/RPi/RPi-config.png){:height="300px"}
+
+![rpi-desktop1](/images/RPi/RPi-config.png){:height="300px"}
+
 </p>
 
 
 * Step 7a: Click on the "localisation" tab: set your locale, timezone, and Wifi country as follows:
 
 <p align="center">
-![rpi-desktop](/images/RPi/RPi-locale.png){:height="300px"}
-![rpi-desktop](/images/RPi/RPi-timezone.png){:height="300px"}
-![rpi-desktop](/images/RPi/RPi-wificountry.png){:height="300px"}
+
+![rpi-desktop2](/images/RPi/RPi-locale.png){:height="300px"}
+
+![rpi-desktop3](/images/RPi/RPi-timezone.png){:height="300px"}
+
+![rpi-desktop4](/images/RPi/RPi-wificountry.png){:height="300px"}
+
 </p>
 
 
