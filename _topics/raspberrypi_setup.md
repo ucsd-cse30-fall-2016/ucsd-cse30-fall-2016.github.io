@@ -93,12 +93,12 @@ $ sudo raspi-config
 
 You will see the following screen:
 
-![raspi-config](RPi/raspi-config.png){:height="300px"}
+![raspi-config](/images/RPi/raspi-config.png){:height="300px"}
 
 * Use the down arrow key to navigate to the "Advanced Options". Select by pressing enter. You should see the following screen	
 
 
-![raspi-hostname](/topics/RPi/raspi-hostname.png){:height="300px"}
+![raspi-hostname](/images/RPi/raspi-hostname.png){:height="300px"}
 
 * Press enter twice to arrive at the following screen:
 
