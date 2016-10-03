@@ -23,7 +23,7 @@ Your Raspberry Pi kit should contain the following items:
 
 ![cover](/topics/Rpi/cover.png)
 
-**4. HDMI Cable: Connects your Pi to a monitor or TV. It cannot be used to connect it you laptop computer.**
+**4. HDMI Cable: Connects your Pi to a monitor or TV. It cannot be used to connect the Pi to your laptop**
 
 ![cable](/topics/Rpi/hdmiCable.png)
 

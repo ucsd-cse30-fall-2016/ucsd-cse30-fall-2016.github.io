@@ -38,13 +38,14 @@ scp cs30fxx@ieng6-241.ucsd.edu:/home/linux/ieng6/cs30f/public/hw_image/*.zip ./
 
 * Unzip the `.zip` file to get a 3.74 GB `.img` file: 2016-05-27-raspbian-jessie.img
 
-* If you have a virtual emulation environment available on your local machine, run the image within your virtual environment to customize it. If you are relying on the virtual environment on ieng6, customize your image later (after burning the image on the SD card). 
+* If you have a virtual emulation environment available on your local machine, run the image within your virtual environment to customize it. 
 	
 ```
 $ docker run -it --rm --privileged=true -v /Users/diba/git/emulate-pi-docker/images:/usr/rpi/images -w /usr/rpi -h localhost ryankurte/docker-rpi-emu /bin/bash -c './run.sh images/2016-05-27-raspbian-jessie.img /bin/bash'
 
 ```
 
+If you are relying on the virtual environment on ieng6, do the next section on customizing your image after burning the image on the SD card. 
 
 ## Customize the image
 
@@ -149,7 +150,13 @@ Go to any of the ten "Pi stations" in the lab. Here you will have access to a ke
 
 5. After the Pi boots up, you should see a graphical desktop. If you see a login prompt instead, enter the credentials for the user "pi". The default password is "raspberry", however, if you have customized your image file already, your password should be something different. If you see a command prompt enter `sudo startx` to get to the graphical desktop.
 
-6. Check your network connectivity following [these instructions](/topics/rpi-Wifi/) If you were able to connect to UCSD-PROTECTED and got a global IP, then congratulations! You are pretty much done and only need to try connecting to your Pi remotely following [this tutorial](/topics/rpi-remoteaccess/). If you were not able able to connect to UCSD-PROTECTED, check that you have the right Wifi configurations in your /etc/wpa_supplicant/wpa_supplicant.conf file. If you still can't connect, that's fine. You should be able to connect over UCSD-GUEST, install any packages that you need and use git. You would only be limited in connecting remotely to your Pi on the UCSD network. Consider setting up your Pi as a server on your home WiFi network following [this tutorial](https://www.raspberrypi.org/documentation/remote-access/access-over-Internet/README.md)
+6. If you have not customized your image yet, return to the earlier section on customizing your image. Then return to this step and restart your Pi by typing the following in a terminal window
+
+``` 
+$ sudo shutdown -r now
+```
+
+7. Check your network connectivity following [these instructions](/topics/rpi-Wifi/) If you were able to connect to UCSD-PROTECTED and got a global IP, then congratulations! You are pretty much done and only need to try connecting to your Pi remotely following [this tutorial](/topics/rpi-remoteaccess/). If you were not able able to connect to UCSD-PROTECTED, check that you have the right Wifi configurations in your /etc/wpa_supplicant/wpa_supplicant.conf file. If you still can't connect, that's fine. You should be able to connect over UCSD-GUEST, install any packages that you need and use git. You would only be limited in connecting remotely to your Pi on the UCSD network. Consider setting up your Pi as a server on your home WiFi network following [this tutorial on weaved](https://www.raspberrypi.org/documentation/remote-access/access-over-Internet/README.md). Note that the free plan on weaved only allows for 30-minute connection times per ssh session.
 
 
 
@@ -255,7 +262,7 @@ $ sudo shutdown -r now
 
 ```
 
-* Step 9: Once the Pi boots up, open a terminal and check your network connectivity following [these instructions](/topics/rpi-Wifi/). If you were able to connect to UCSD-PROTECTED and got a global IP, then congratulations! You are pretty much done and only need to try connecting to your Pi remotely following [this tutorial](/topics/rpi-remoteaccess/). If you were not able able to connect to UCSD-PROTECTED, check that you have the right Wifi configurations in your /etc/wpa_supplicant/wpa_supplicant.conf file. If you still can't connect, that's fine. You should be able to connect over UCSD-GUEST, install any packages that you need and use git. You would only be limited in connecting remotely to your Pi on the UCSD network. Consider setting up your Pi as a server on your home WiFi network following [this tutorial](https://www.raspberrypi.org/documentation/remote-access/access-over-Internet/README.md). Note that the free plan on weaved only allows for 30-minute connection times per ssh session.
+* Step 9: Once the Pi boots up, open a terminal and check your network connectivity following [these instructions](/topics/rpi-Wifi/). If you were able to connect to UCSD-PROTECTED and got a global IP, then congratulations! You are pretty much done and only need to try connecting to your Pi remotely following [this tutorial](/topics/rpi-remoteaccess/). If you were not able able to connect to UCSD-PROTECTED, check that you have the right Wifi configurations in your /etc/wpa_supplicant/wpa_supplicant.conf file. If you still can't connect, that's fine. You should be able to connect over UCSD-GUEST, install any packages that you need and use git. You would only be limited in connecting remotely to your Pi on the UCSD network. Consider setting up your Pi as a server on your home WiFi network following [this tutorial on weaved](https://www.raspberrypi.org/documentation/remote-access/access-over-Internet/README.md). Note that the free plan on weaved only allows for 30-minute connection times per ssh session.
 
 * Step 10: If you are able to connect remotely to your Pi, free up the Pi station for someone else to use. Leave your Pi plugged into the power outlet and remove all other connections. ssh into your Pi from a lab machine or laptop and then install these useful packages (git, gvim, tightvncserver for remote desktop, and weaved (just in case you have trouble with UCSD-PROTECTED (see more [here](https://www.raspberrypi.org/documentation/remote-access/access-over-Internet/README.md) ):
 
