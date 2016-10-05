@@ -15,5 +15,5 @@ You'll do this by solving a series of programming ``puzzles.'' Many of
 these puzzles are quite artificial, but you'll find yourself thinking
 much more about bits in working your way through them.
 
-All the information needed to begin this lab is available in the lab 01 writeup (will be made available shortly)
+All the information needed to begin this lab is available in the [lab 01 writeup](/lab/lab01/datalab.pdf) 
 
