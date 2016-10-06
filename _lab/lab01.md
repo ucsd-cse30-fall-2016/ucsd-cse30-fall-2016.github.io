@@ -1,13 +1,13 @@
 ---
 layout: lab
 num: lab01
-ready: false
+ready: true
 desc: "Data Lab"
 assigned: 2016-10-06 23:59:00.00-7
 due: 2016-10-14 23:59:00.00-7
 ---
 
-# Overview
+## Lab 01: Data Lab
 
 The purpose of this assignment is to become more familiar with
 bit-level representations of integers and floating point numbers.
