@@ -3,7 +3,7 @@ layout: lab
 num: lab01
 ready: true
 desc: "Data Lab"
-assigned: 2016-10-06 23:59:00.00-7
+assigned: 2016-10-05 17:30:00.00-7
 due: 2016-10-14 23:59:00.00-7
 ---
 
