@@ -13,4 +13,4 @@ omit_from_collection: true
 
 ----
 
-![Pi_logo](/images/Pi.jpg)
+
