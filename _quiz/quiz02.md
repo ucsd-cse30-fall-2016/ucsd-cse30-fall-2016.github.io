@@ -7,7 +7,7 @@ assigned: 2016-10-07 18:00:00.00-7
 due: 2016-10-10 23:59:00.00-7
 ---
 
-# Quiz 1 instructions
+# Quiz 2 instructions
 
 
 * This quiz is based on the [week 2 assigned reading](/lectures/week2/) with emphasis on bitwise operations in ARM Assembly and C. We also assume you know the material from week 1. So, expect questions on number representation.
