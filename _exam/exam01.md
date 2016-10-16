@@ -1,7 +1,7 @@
 ---
 layout: exam 
 num: midterm01 
-ready: true
+ready: true	
 desc: "Midterm 1"
 assigned: 2016-10-19 
 ---
@@ -33,7 +33,13 @@ The midterm will cover topics from Weeks 1 to 3 which includes:
 	* C pointers 
 	* C arrays and pointer arithmetic
 
-To prepare for the midterm, please go through quiz 1-3, know the solutions to the puzzles in PA1 (with difficulty level 1-3)
+To prepare for the midterm, please go through quiz 1-3, lecture slides AND know the solutions to the puzzles in PA1 with difficulty level 1-3.
+
+Here are the quiz questions with solutions
+
+* [Quiz 1](https://drive.google.com/file/d/0B__7284Jee0fMG93ZVU1U2ZYY3M/view?usp=sharing)
+* [Quiz 2](https://drive.google.com/file/d/0B__7284Jee0fak1YOUEyRDdMbGc/view?usp=sharing)
+* Quiz 3 (link will be provided after due date) 
 
 If you have time, sample the following exercises from Harris and King:
 
