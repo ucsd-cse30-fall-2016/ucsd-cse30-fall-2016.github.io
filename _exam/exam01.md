@@ -39,7 +39,7 @@ Here are the quiz questions with solutions
 
 * [Quiz 1](https://drive.google.com/file/d/0B__7284Jee0fMG93ZVU1U2ZYY3M/view?usp=sharing)
 * [Quiz 2](https://drive.google.com/file/d/0B__7284Jee0fak1YOUEyRDdMbGc/view?usp=sharing)
-* Quiz 3 (link will be provided after due date) 
+* [Quiz 3](https://drive.google.com/file/d/0B8ekBeyzUgnkLXRpRm1VY1UxcU0/view?usp=sharing) 
 
 If you have time, sample the following exercises from Harris and King:
 
