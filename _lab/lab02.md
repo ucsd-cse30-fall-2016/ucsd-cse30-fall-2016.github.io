@@ -1,9 +1,19 @@
 ---
 layout: lab
 num: lab02
-ready: false
+ready: true
 desc: "lab02"
-assigned: 2016-10-19 14:30:00.00-7
-due: 2016-10-27 23:59:00.00-7
+assigned: 2016-10-19 11:59:00.00-7
+due: 2016-11-01 23:59:00.00-7
 ---
-TBD
+
+## Lab 02: Array list Lab
+
+This is an assignment in two parts. In the first part you are given more practice with GDB, the GNU Project Debugger and a lot of practice with pointers by writing C code that uses them heavily.
+The second part of the assignment focusses on translating your C code to Assembly. After completing the assignment you should know many of the important ARM instructions (particularly those that interact with memory) and understand what goes on under the hood of your C program.
+
+
+Deadline for part I: 11-01-2016 @ 11:59pm
+Deadline for part II: 11-10-2016 @ 11:59pm
+
+All the information needed to begin this lab is available in the [lab 02 writeup](/lab/lab02/arraylistlab.pdf) 
