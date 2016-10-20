@@ -2,7 +2,7 @@
 layout: lab
 num: lab02
 ready: true
-desc: "lab02"
+desc: "ArrayListLab"
 assigned: 2016-10-19 11:59:00.00-7
 due: 2016-11-01 23:59:00.00-7
 ---
