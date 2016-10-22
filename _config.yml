@@ -26,7 +26,8 @@ year: "Fall 2016"
 kramdown:
    parse_block_html: true
 
-exclude: [vendor]
+exclude: ["Genfile", "Genfile.lock", ".gitignore", "Rakefile", "config.ru", "vendor"]
+
 
 timezone: America/Los_Angeles
 
