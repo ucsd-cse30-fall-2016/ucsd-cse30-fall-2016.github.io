@@ -33,7 +33,6 @@ $ docker run -it --rm --privileged=true -v IMAGE_LOCATION:/usr/rpi/images -w /us
 In the above command, IMAGE_LOCATION is the directory containing your Raspbian image to be mounted, IMAGE_NAME is the name of the image to be used, and [COMMAND] is the optional command to be executed (inside the image). For example if the IMAGE_LOCATION is  `/Users/diba/git/emulate-pi-docker/images` and the IMAGE_NAME is `2016-05-27-raspbian-jessie-lite.img`, then you should run the command:
 
 ```
-
 docker run -it --rm --privileged=true -v /Users/diba/git/emulate-pi-docker/images:/usr/rpi/images -w /usr/rpi ryankurte/docker-rpi-emu /bin/bash -c './run.sh images/2016-05-27-raspbian-jessie-lite.img /bin/bash'
 ```
 
