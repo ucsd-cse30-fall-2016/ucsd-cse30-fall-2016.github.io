@@ -11,42 +11,41 @@ assigned: 2016-11-16
 The midterm is cumulative but will focus more on topics covered after midterm 1. Be sure to thoroughly review material from Weeks 3 -7
 
 1. Pointers: 
-
-	* Declarion and initialization for pointers to different data types
-	* Pointers and arrays (similarities and differences)
-  * Pointer arithmetic
-  * Pointers to pointers
-  * Pointers to structs
-  * Debugging exercises with pointers
+   * Declarion and initialization for pointers to different data types
+   * Pointers and arrays (similarities and differences)
+   * Pointer arithmetic
+   * Pointers to pointers
+   * Pointers to structs
+   * Debugging exercises with pointers
 
 2. Arrays and Structs
-	* Declaration, initialization
-	* Passing arrays to functions
-  * Basic data structures that use structs, array lists, linked lists
-  * Debugging exercises involving arrays and structs (implications of out of bound array access) 
+   * Declaration, initialization
+   * Passing arrays to functions
+   * Basic data structures that use structs, array lists
+   * Debugging exercises involving arrays and structs (implications of out of bound array access) 
   
 
 3. Program and data representation in memory
-	* Program layout- text, data, bss, heap and stack
-  * Data layout in memory: pointers, structs, arrays of chars, shorts, ints, pointers, structs
-	* Byte ordering (little and big endian)
+   * Program layout- text, data, bss, heap and stack
+   * Data layout in memory: pointers, structs, arrays of chars, shorts, ints, pointers, structs
+   * Byte ordering (little and big endian)
   
 4. Dynamic memory allocation
-  * malloc, calloc, realloc, free
-  * Identifying the causes for segfaults, memory leaks, dangling pointers and data corruption
-  * Debugging exercises 
+   * malloc, calloc, realloc, free
+   * Identifying the causes for segfaults, memory leaks, dangling pointers and data corruption
+   * Debugging exercises 
   
 5. File IO
-  * Streams
-  * Functions to interact with files: fopen, fputc, fgetc, fread, fwrite, fclose, feof
-  * Data representation in files
+   * Streams
+   * Functions to interact with files: fopen, fputc, fgetc, fread, fwrite, fclose, feof
+   * Data representation in files
   
 5. Hand compiling C code to ARM  with emphasis on the following ARM instructions
-  * ARM Data transfer instructions for interaction with memory
-  * ARM Control transfer instructions (if , if else, while, do ..while)
-  * Conditional execution of ARM instructions using condition codes
-  * Function call mechanics and the ARM Procedure call standard
-  * Nested functions
+   * ARM Data transfer instructions for interaction with memory
+   * ARM Control transfer instructions (if , if else, while, do ..while)
+   * Conditional execution of ARM instructions using condition codes
+   * Function call mechanics and the ARM Procedure call standard
+   * Nested functions
  
 
 
