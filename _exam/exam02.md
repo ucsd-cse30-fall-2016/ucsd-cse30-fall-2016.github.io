@@ -3,8 +3,10 @@ layout: exam
 num: midterm02 
 ready: true
 desc: "Midterm 2"
-assigned: 2016-11-16 
+assigned: 2016-11-16 10:00:00.00-8:00
 ---
+
+The midterm will be conducted during the lecture time for each section (10:00am and 1:00pm)
 
 # Study guide for midterm 2
 
