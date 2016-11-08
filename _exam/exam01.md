@@ -3,7 +3,7 @@ layout: exam
 num: midterm01 
 ready: true	
 desc: "Midterm 1"
-assigned: 2016-10-19 
+assigned: 2016-10-19 10:00:00.00-8:00
 ---
 
 # Study guide for midterm 1
