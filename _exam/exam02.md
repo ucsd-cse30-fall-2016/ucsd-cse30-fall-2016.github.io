@@ -13,7 +13,7 @@ The midterm will be conducted during the lecture time for each section (10:00am 
 The midterm is cumulative but will focus more on topics covered after midterm 1. Be sure to thoroughly review material from Weeks 3 -7
 
 1. Pointers: 
-   * Declarion and initialization for pointers to different data types
+   * Declarion and initialization for pointers to different data types, address and indirection operators
    * Pointers and arrays (similarities and differences)
    * Pointer arithmetic
    * Pointers to pointers
