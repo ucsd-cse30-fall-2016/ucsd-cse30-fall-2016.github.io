@@ -59,4 +59,4 @@ Here are the quiz questions with solutions
 * [Quiz 2](https://drive.google.com/file/d/0B__7284Jee0fak1YOUEyRDdMbGc/view?usp=sharing)
 * [Quiz 3](https://drive.google.com/file/d/0B8ekBeyzUgnkLXRpRm1VY1UxcU0/view?usp=sharing) 
 
-
+[Practice midterm 2](https://drive.google.com/file/d/0B__7284Jee0fdXBHZEVrZmhFUkk/view?usp=sharing)
