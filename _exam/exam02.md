@@ -60,3 +60,4 @@ Here are the quiz questions with solutions
 * [Quiz 3](https://drive.google.com/file/d/0B8ekBeyzUgnkLXRpRm1VY1UxcU0/view?usp=sharing) 
 
 [Practice midterm 2](https://drive.google.com/file/d/0B__7284Jee0fdXBHZEVrZmhFUkk/view?usp=sharing)
+[Solutions to practice midterm](https://drive.google.com/file/d/0B__7284Jee0fbGFzZ1V4Qzk1U1U/view?usp=sharing)
