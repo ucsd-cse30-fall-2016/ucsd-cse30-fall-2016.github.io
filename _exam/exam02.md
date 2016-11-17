@@ -67,7 +67,7 @@ Here are the quiz questions with solutions
 # Exam paper and solutions
 
 * [Midterm question paper](https://drive.google.com/file/d/0B__7284Jee0fOUwwallNdHpsaUk/view?usp=sharing)
-* [Midterm solutions](https://drive.google.com/file/d/0B__7284Jee0fT0ZwcXBRQk9LUXc/view?usp=sharing)
+* [Midterm solutions](https://drive.google.com/a/eng.ucsd.edu/file/d/0B__7284Jee0fblUxVlhMVHg5RHc/view?usp=sharing)
 
 # Regrade policy
 
