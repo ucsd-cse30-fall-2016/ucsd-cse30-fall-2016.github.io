@@ -71,7 +71,5 @@ Here are the quiz questions with solutions
 
 # Regrade policy
 
-Please note that we are confident that the solutions to the midterm are correct. 
-Also, there will be no changes to the rubric. You may submit a regrade request only if you are sure that there was a grading error.
-You may not submit regrades to enquire about where you went wrong. We hope this is something you can figure out by looking at the provided solutions above. There will be a one point deduction for invalid regrade requests i.e. request that contend the rubric, request for more points on incorrect solutions or simply seek to enquire about what the correct solution is. We recommend that you direct such queries to gradescope.
+Please note that we have thoroughly checked the solutions to the midterm and believe they are correct. If you think otherwise, please communicate the same to us via Piazza and not as a regrade request. Also, there will be no changes to the rubric. You may submit a regrade request only if you are sure that there was a grading error. You may not submit regrades to enquire about where you went wrong. We hope this is something you can figure out by looking at the provided solutions above. To discourage unnecessary regrade requests, there is a one point deduction for invalid regrade requests i.e. request that contend the rubric, request for more points on incorrect solutions or simply seek to enquire about what the correct solution. We recommend that you direct such queries to Piazza.
 
