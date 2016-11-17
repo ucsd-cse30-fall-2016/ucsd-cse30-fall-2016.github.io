@@ -50,6 +50,7 @@ The midterm is cumulative but will focus more on topics covered after midterm 1.
    * Nested functions
  
 
+# Resources
 
 To prepare for the midterm, please go through quiz 1-6, lecture slides AND review pa2 and pa3
 
@@ -59,5 +60,18 @@ Here are the quiz questions with solutions
 * [Quiz 2](https://drive.google.com/file/d/0B__7284Jee0fak1YOUEyRDdMbGc/view?usp=sharing)
 * [Quiz 3](https://drive.google.com/file/d/0B8ekBeyzUgnkLXRpRm1VY1UxcU0/view?usp=sharing) 
 
-[Practice midterm 2](https://drive.google.com/file/d/0B__7284Jee0fdXBHZEVrZmhFUkk/view?usp=sharing)
-[Solutions to practice midterm](https://drive.google.com/file/d/0B__7284Jee0fbGFzZ1V4Qzk1U1U/view?usp=sharing)
+* [Practice midterm 2](https://drive.google.com/file/d/0B__7284Jee0fdXBHZEVrZmhFUkk/view?usp=sharing)
+
+* [Solutions to practice midterm](https://drive.google.com/file/d/0B__7284Jee0fbGFzZ1V4Qzk1U1U/view?usp=sharing)
+
+# Exam paper and solutions
+
+* [Midterm question paper](https://drive.google.com/file/d/0B__7284Jee0fOUwwallNdHpsaUk/view?usp=sharing)
+* [Midterm solutions](https://drive.google.com/file/d/0B__7284Jee0fT0ZwcXBRQk9LUXc/view?usp=sharing)
+
+# Regrade policy
+
+Please note that we are confident that the solutions to the midterm are correct. 
+Also, there will be no changes to the rubric. You may submit a regrade request only if you are sure that there was a grading error.
+You may not submit regrades to enquire about where you went wrong. We hope this is something you can figure out by looking at the provided solutions above. There will be a one point deduction for invalid regrade requests i.e. request that contend the rubric, request for more points on incorrect solutions or simply seek to enquire about what the correct solution is. We recommend that you direct such queries to gradescope.
+
