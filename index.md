@@ -39,9 +39,9 @@ title: "CSE 30 Fall 2016: Computer Organization and Systems Programming"
   {% include lectures_for_week.html week="7" 
     collapsible="true" collapsed="true" %}
   {% include lectures_for_week.html week="8" 
-    collapsible="true" collapsed="false" %}
-  {% include lectures_for_week.html week="9" 
     collapsible="true" collapsed="true" %}
+  {% include lectures_for_week.html week="9" 
+    collapsible="true" collapsed="false" %}
   {% include lectures_for_week.html week="10" 
     collapsible="true" collapsed="true" %}
 </div>
