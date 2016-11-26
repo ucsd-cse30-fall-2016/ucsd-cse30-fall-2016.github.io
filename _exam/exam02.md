@@ -59,9 +59,9 @@ Here are the quiz questions with solutions
 * [Quiz 1](https://drive.google.com/file/d/0B__7284Jee0fMG93ZVU1U2ZYY3M/view?usp=sharing)
 * [Quiz 2](https://drive.google.com/file/d/0B__7284Jee0fak1YOUEyRDdMbGc/view?usp=sharing)
 * [Quiz 3](https://drive.google.com/file/d/0B8ekBeyzUgnkLXRpRm1VY1UxcU0/view?usp=sharing) 
-
+* [Quiz 4](https://drive.google.com/file/d/0B__7284Jee0fS0dqQUNpeVFoVjg/view?usp=sharing)
+* [Quiz 5](https://drive.google.com/file/d/0B__7284Jee0fVW5heUxCUHdvNDg/view?usp=sharing)
 * [Practice midterm 2](https://drive.google.com/file/d/0B__7284Jee0fdXBHZEVrZmhFUkk/view?usp=sharing)
-
 * [Solutions to practice midterm](https://drive.google.com/file/d/0B__7284Jee0fbGFzZ1V4Qzk1U1U/view?usp=sharing)
 
 # Exam paper and solutions
