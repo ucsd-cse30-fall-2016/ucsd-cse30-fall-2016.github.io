@@ -46,6 +46,8 @@ If you have time, sample the following exercises from Harris and King:
 * Harris Chapter 1, Exercises 1.6 - 1.62
 * King Chapter 20, Exercises 1, 2, 4, 6, 7, 8, 9, 10, 12, 13
 
+# Midterm paper and solutions
+
 * [Midterm 1 Exam paper](https://drive.google.com/file/d/0B__7284Jee0fT0xTajNjdWRvR2M/view?usp=sharing)
 * [Midterm 1 Solutions](https://drive.google.com/file/d/0B__7284Jee0fQVhWUERZOVRBY1U/view?usp=sharing)
 
