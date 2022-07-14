@@ -1,13 +1,22 @@
 ---
-title: Course Resources
+title: Overview and Resources 
 layout: default
 ---
+
+# About this course
+
+CSE 30 is an undergraduate course in computer organization and systems programming. The goals are:
+
+* To understand the organization of modern digital computers
+* To understand the various components of a computer and their interrelationships.
+* To understand a specific architecture/machine with emphasis on systems programming in C and Assembly Language.
+
 
 # Required and Recommended Resources
 
 ## Required textbooks
 
-* Digital Design and Computer Architecture: ARM Edition, by Sarah Harris and David Harris. Free e-copy available through UCSD library [link to e-book](http://www.sciencedirect.com/science/book/9780128000564). The book can only be accessed on the UCSD network/VPN.
+* Digital Design and Computer Architecture: ARM Edition, by  Harris and Harris. Free e-copy available through UCSD library [link to e-book](http://www.sciencedirect.com/science/book/9780128000564). The book can only be accessed on the UCSD network/VPN.
 
 * C Programming: A Modern Approach, 2nd Edition by K. N. King. Available for rent or purchase on [Amazon](https://www.amazon.com/gp/offer-listing/0393979504/ref=dp_olp_all_mbc?ie=UTF8&condition=all)
 

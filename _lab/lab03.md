@@ -1,6 +1,6 @@
 ---
 layout: lab
-num: lab03_CPart
+num: lab03_C
 ready: true
 desc: "lab03-Part1 (C)"
 assigned: 2016-11-01 17:30:00.00-7

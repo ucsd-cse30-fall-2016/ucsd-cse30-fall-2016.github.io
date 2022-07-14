@@ -10,7 +10,7 @@ title: "CSE 30 Fall 2016: Computer Organization and Systems Programming"
 
 
 <div id="info" data-role="collapsible" data-collapsed="false">
-<h2>Course Information</h2>
+<h2>Syllabus</h2>
 <ul>
 {% for item in site.info %}
 <li><a href="{{item.url}}"  data-ajax="false">{{item.title }}</a></li>
@@ -74,7 +74,7 @@ title: "CSE 30 Fall 2016: Computer Organization and Systems Programming"
  </ul>
 </div>
 
-Copyright (c) 2016, Diba Mirza and Phill Conrad 
+Copyright (c) 2016, Diba Mirza.
 
 
 

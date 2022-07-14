@@ -1,0 +1,20 @@
+current directory: /Users/dibamirza/git/ucsd-cse30-fall-2016.github.io/vendor/bundle/ruby/3.0.0/gems/json-1.8.3/ext/json/ext/generator
+/Users/dibamirza/.rbenv/versions/3.0.3/bin/ruby -I /Users/dibamirza/.rbenv/versions/3.0.3/lib/ruby/3.0.0 -r ./siteconf20220714-92380-o4t7i0.rb extconf.rb
+creating Makefile
+
+current directory: /Users/dibamirza/git/ucsd-cse30-fall-2016.github.io/vendor/bundle/ruby/3.0.0/gems/json-1.8.3/ext/json/ext/generator
+make DESTDIR\= clean
+
+current directory: /Users/dibamirza/git/ucsd-cse30-fall-2016.github.io/vendor/bundle/ruby/3.0.0/gems/json-1.8.3/ext/json/ext/generator
+make DESTDIR\=
+compiling generator.c
+generator.c:861:25: error: use of undeclared identifier 'rb_cFixnum'
+    } else if (klass == rb_cFixnum) {
+                        ^
+generator.c:863:25: error: use of undeclared identifier 'rb_cBignum'
+    } else if (klass == rb_cBignum) {
+                        ^
+2 errors generated.
+make: *** [generator.o] Error 1
+
+make failed, exit code 2

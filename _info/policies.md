@@ -49,7 +49,7 @@ Your final grade for the course will be based on the following components:
 
 * 2% Class Participation
 * 10% Reading Quizzes
-* 28% Programming Assignments
+* 28% Labs 
 * 15% Midterm 1
 * 15% Midterm 2
 * 30% Final exam

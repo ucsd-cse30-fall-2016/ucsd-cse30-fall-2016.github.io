@@ -1,8 +1,8 @@
 ---
 layout: lab
-num: lab02_CPart
+num: lab02_C
 ready: true
-desc: "ArrayListLab"
+desc: "ArrayListLab (Part1- C)"
 assigned: 2016-10-19 11:59:00.00-7
 due: 2016-11-01 23:59:00.00-7
 ---
